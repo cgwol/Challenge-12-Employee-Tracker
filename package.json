@@ -4,7 +4,8 @@
   "description": "Command Line Application to manage a company's employee database using Node.js, Inquirer, and MySQL.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,13 @@
   },
   "homepage": "https://github.com/cgwol/Challenge-12-Employee-Tracker#readme",
   "dependencies": {
+    "clear": "^0.1.0",
+    "console-clear": "^1.1.1",
     "dotenv": "^16.3.1",
+    "figlet": "^1.6.0",
     "inquirer": "^8.2.4",
-    "mysql2": "^3.6.0"
+    "keypress": "^0.2.1",
+    "mysql2": "^3.6.0",
+    "table": "^6.8.1"
   }
 }

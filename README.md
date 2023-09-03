@@ -27,6 +27,18 @@
     mysql -u '*root*' -p
     </pre>
 
+  Once in the mySQL shell use the command
+    
+    source db/schema.sql
+
+  If exmaple seed data is wanted use command
+
+    source db/seeds.sql
+
+  Exit the mySQL shell with
+
+    exit
+
   Install the npm packages with
 
     npm install

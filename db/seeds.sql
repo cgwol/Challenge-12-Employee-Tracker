@@ -13,7 +13,7 @@ INSERT INTO role_table (title, salary, department_id) VALUES
     ('Product Manager', 110000, 2),
     ('Sales Associate', 50000, 3),
     ('Recruiter', 55000, 1),
-    ('Software Engineer Project Lead', 2)
+    ('Software Engineer Project Lead', 135000 ,2);
 
 INSERT INTO employee_table (first_name, last_name, role_id, manager_id) VALUES
     ('John', 'Doe', 1, NULL),
